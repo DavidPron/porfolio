@@ -1,0 +1,38 @@
+.sidepanel {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 340px;
+    z-index: 1;
+    &__text {
+        color: #727272;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        transform: rotate(-90deg);
+    }
+    &__divider {
+        display: flex;
+        flex-direction: center;
+        width: 2px;
+        height: 70px;
+        background-color: #4b4944;
+        
+    }
+    &__link {
+        border-radius: 100%;
+        transition: 1s all;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 3px 3px 40px #afafaf;
+            border: none;
+            margin-left: 15px;
+            transform: rotate(90deg);
+        }
+    }
+
+}

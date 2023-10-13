@@ -1,0 +1,12 @@
+.btn {
+    background: #4b4944;
+    padding: 12px 25px 12px 25px;
+    box-shadow: 1px 4px 4px 1px rgba(128, 124, 124, 0.15);
+    border-radius: 15px;
+    transition: 1s all;
+    &:hover {
+        box-shadow: 3px 3px 30px #afafaf;
+        margin-left: 15px;
+    }
+}
+
